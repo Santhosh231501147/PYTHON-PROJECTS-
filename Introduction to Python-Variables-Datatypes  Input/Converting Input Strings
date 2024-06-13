@@ -1,0 +1,6 @@
+a=input()
+b=input()
+c=int(a)
+d=float(b)
+print(c,type(c),sep=&quot;,&quot;)
+print(&quot;{:0.1f}&quot;.format(d),type(d),sep=&quot;,&quot;)
